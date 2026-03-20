@@ -5,7 +5,7 @@
 //            array.forEach(callback)
 
 let number = [1, 2, 3, 4, 5];
-number.forEach(cude);
+number.forEach(cube);
 number.forEach(display);
 
 function double(element, index, array){
@@ -19,7 +19,7 @@ function triple(element, index, array){
 function square(element, index, array){
     array[index] = Math.pow(element,2);
 }
-function cude(element, index, array){
+function cube(element, index, array){
     array[index] = Math.pow(element, 3);
 }
 
