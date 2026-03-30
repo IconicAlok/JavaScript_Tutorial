@@ -4,7 +4,6 @@
 
 // let fruits = ["apple", "orange", "banana", "coconut","pineapple"];
 numbers = [1, 5, 3, 2, 6, 4, 10, 7, 9, 12, 15, 11];
-
 numbers.sort((a, b) => a - b);
 // for reverse order
 numbers.sort((a, b) => b - a);
